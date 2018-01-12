@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    overflow: hidden;
+}
+
+#displayscreen{
+    width:90%;
+    height:33%;
+    text-align: right;
+    font-size: 2rem;
+    color: #a6a6a6;
+    border: 0.1rem solid white;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+
+#keypad{
+   background-color: #888888;
+   height: 60%;
+   width: 100%;
+   }
+   
+.button{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    height:23%;
+    width:32%;
+    border: 2px solid #888888;
+    background-color:#888888;
+    font-size: 3rem;
+    font-family: calibri;
+}
+   
+select{
+    width: 3.2rem;
+   }
+   
+#nav.closedmenu{
+    padding-bottom: 9.71%;   
+   }
+   
+#switch{
+    padding-right: 7%;
+    padding-left: 7%;
+   }
